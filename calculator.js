@@ -27,19 +27,19 @@ document.getElementById("subtractNumbers").addEventListener("click", function(){
 });
 
 function multiply() {
-  output = input1.value * input2.value
+  output = input1.value * input2.value;
 }
 
 function divide() {
-  output = input1.value / input2.value
+  output = input1.value / input2.value;
 }
 
 function add() {
-  output = +input1.value + +input2.value;
+  output = parseInt(input1.value) + parseInt(input2.value);
 }
 
 function subtract() {
-  output = input1.value - input2.value
+  output = input1.value - input2.value;
 }
 /*
   Create a function that multiplies two numbers
